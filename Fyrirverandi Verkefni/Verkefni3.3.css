@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+body{
+    background-color: #e600ac;
+    margin: 20px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-areas: 
+    "nav1 nav2 nav3 nav4 nav5"
+    "header header header header header"
+    "con con con sidebar sidebar2";
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.header{
+    grid-area: header;
+    background: #ff4dd2;
+    font-size: 250%;
+    font-family: Cinzel;
+    height: 350px;
+}
+.sidebar{
+    background-color: #ff00ff;
+    grid-area: sidebar;
+}
+.sidebar2{
+    grid-area: sidebar2;
+    background-color: #ff00ff;;
+}
+.nav1{
+    grid-area: nav1;
+    text-align: center;
+    background: #ff80ff;
+    padding: 15px;
+}
+.nav2{
+    grid-area: nav2;
+    text-align: center;
+    background: #ff80ff;
+    padding-top: 15px;
+}
+.nav3{
+    grid-area: nav3;
+    text-align: center;
+    background: #ff80ff;
+    padding: 15px;
+}
+.nav4{
+    grid-area: nav4;
+    text-align: center;
+    background: #ff80ff;
+    padding: 15px;
+}
+.nav5{
+    grid-area: nav5;
+    text-align: center;
+    background: #ff80ff;
+    padding: 15px;
+}
+.con{
+    background: #ff4dff;
+    grid-area: con;
+}
+.footer{
+    text-align: center;
+    background-color: #ff66ff;
+}
+img{
+    float: right;
+    width: 241px;
+    height: 425;
+}
+a:link{
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+    color: #990073;
+}
+a{
+    color: black;
+}
+.midja{
+    text-align: center;
+}
+.box{
+    border: #ff00ff solid 1px;
+}
+

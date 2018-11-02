@@ -1,0 +1,127 @@
+.header{
+    width: 960px; 
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+.textihaegri{
+    text-align: right;
+}
+.bakgrunn{
+    background-image:linear-gradient(#cccccc,#f2f2f2)
+}
+body{
+    background-color:#d9d9d9;
+}
+.texti{
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+blockquote{
+    background: rgba(115, 115, 115, 0.5);
+}
+.footer{
+    width: 960px; 
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sans{
+    font-family:'Open Sans', sans-serif;
+}
+.midja{
+    text-align: center;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navigation li {
+    display: inline-block;
+}
+.navigation a {
+    background: black;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    background: gray;
+}
+.navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a{
+    border-right: 0;
+    border-radius: 0 4px 4px 0px;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    bottom: 20px;
+    right: 20px;
+    
+    background: gray;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.arrowleft{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    bottom: 20px;
+    left: 20px;
+    
+    background: gray;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.texti1{
+    background: linear-gradient(#8c8c8c,#999999);
+    height: 100vh;
+}
+.texti2{
+    background: linear-gradient(#a6a6a6,#b3b3b3);
+    height: 100vh;
+}
+.texti3{
+    background: linear-gradient(#bfbfbf,#cccccc);
+    height: 100vh;
+}
+.texti4{
+    background: linear-gradient(#d9d9d9,#e6e6e6);
+    height: 100vh;
+}
+.texti5{
+    background: linear-gradient(#f2f2f2,#ffffff);
+    height: 100vh;
+}
+.texti6{
+    background: linear-gradient(#f2f2f2,#ffffff);
+    height: 100vh;
+}
+.padding{
+    padding: 30px;
+}

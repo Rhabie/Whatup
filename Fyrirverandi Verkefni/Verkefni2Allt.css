@@ -1,0 +1,99 @@
+.box1{
+    border: 3px solid green;
+}
+.box2{
+    border: 3px solid red;
+    padding: 20px;
+}
+.box3{
+    border: 3px dashed blue;
+}
+.raudur1{
+    color:red;
+}
+.blar1{
+    color: blue;
+}
+li{
+    border: 3px dashed green;
+    margin: 20px;
+    padding: 10px;
+}
+.li1{
+    display: inline;
+    border: dashed blue 3px;
+}
+.li2{
+    display: inline-block;
+    border: dashed red 3px;
+}
+*{
+    box-sizing: border-box;
+}
+.dalkur{
+    float: left;
+    width: 33.33%;
+    border: 3px solid black;
+
+}
+body{
+    margin: 0 auto;
+    width: 70%;
+}
+.dalkur2{
+    float: left;
+    width: 50%;
+    border: 3px solid black;
+}
+.rammi{
+    border: 2px solid red;
+    padding: 20px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+footer p {
+    text-align: center;
+  }
+  
+  .gulur {
+      background-color: yellow;
+  }
+  .raudur {
+      background-color: red; 
+  }
+  .graenn {
+      background-color: lime;
+  }
+  .blar {
+      background-color: cyan;
+  }
+  .box {
+      font-size: 1.2em;
+      height: 5em;
+      padding: 40px;
+      text-align: center;	
+  }
+  .row{
+      display: flex;
+      flex-flow: row-reverse;
+  }
+  .col{
+      display: flex;
+      flex-flow: column-reverse;
+  }
+  .flex{
+      flex-grow: 1;
+  }
+  * {
+    box-sizing: border-box;
+}

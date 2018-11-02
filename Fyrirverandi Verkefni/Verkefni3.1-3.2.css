@@ -1,0 +1,70 @@
+.grid_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.border{
+    border: 2px solid black
+}
+.utskyring{
+    text-align: center;
+}
+.litur{
+    background-color: lightgray; 
+}
+.bull{
+    color: blue;
+    text-align: right;
+    font-style: italic;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace
+}
+.dalkur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.arialblack{
+    font-family: 'Arial Black';
+}
+.trebuchet{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.palatino{
+    font-family: 'Palatino Linotype';
+}
+.dalkur1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+div{
+    border: 2px solid black;
+}
+.ska{
+    font-style: italic;
+}
+.letur{
+    line-height: 1.6em;
+    font-size: 0.7em;
+}
+.raudur{
+    color: red;
+}
+.dalkur2{
+    display: grid;
+    grid-template-columns: auto;
+}
+.impact{
+    font-family: Impact;
+    text-align: center;
+    font-size: 3em;
+}
+.bakgrunnur{
+    background-color: lightgray;
+}
